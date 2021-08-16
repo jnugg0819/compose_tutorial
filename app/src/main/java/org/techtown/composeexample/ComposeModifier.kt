@@ -41,10 +41,10 @@ fun PhotographerCard(modifier: Modifier = Modifier){
 
     Row(modifier
         .padding(8.dp)
-        .clip(RoundedCornerShape(4.dp))
+        .clip(RoundedCornerShape(4.dp)) // RoundBorder지정.
         .background(MaterialTheme.colors.surface)
         .clickable(onClick = {})
-        .padding(16.dp)
+        .padding(16.dp)//clickable 전에 padding오면 클릭이 Row전체 적용이 안됨 무조건 padding전에 올것.
         ) {
         Surface(
             modifier = Modifier.size(50.dp),
