@@ -12,6 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ComposeExample">
         <activity
+            android:name=".CustomCompose"
+            android:exported="true"
+            android:label="@string/title_activity_custom_compose"
+            android:theme="@style/Theme.ComposeExample.NoActionBar" />
+        <activity
             android:name=".ComposeList"
             android:exported="true"
             android:label="@string/title_activity_compose_list"

@@ -3,4 +3,5 @@
     <string name="title_activity_compose_modifier">ComposeModifier</string>
     <string name="title_activity_material_compose">MaterialCompose</string>
     <string name="title_activity_compose_list">ComposeList</string>
+    <string name="title_activity_custom_compose">CustomCompose</string>
 </resources>
