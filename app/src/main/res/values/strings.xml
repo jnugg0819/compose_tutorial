@@ -5,4 +5,6 @@
     <string name="title_activity_compose_list">ComposeList</string>
     <string name="title_activity_custom_compose">CustomCompose</string>
     <string name="title_activity_complex_custom_layout">ComplexCustomLayout</string>
+    <string name="title_activity_layout_modifier">LayoutModifier</string>
+    <string name="title_activity_constraint_text">ConstraintText</string>
 </resources>

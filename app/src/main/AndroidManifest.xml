@@ -12,6 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ComposeExample">
         <activity
+            android:name=".ConstraintText"
+            android:exported="true"
+            android:label="@string/title_activity_constraint_text"
+            android:theme="@style/Theme.ComposeExample.NoActionBar" />
+        <activity
+            android:name=".LayoutModifier"
+            android:exported="true"
+            android:label="@string/title_activity_layout_modifier"
+            android:theme="@style/Theme.ComposeExample.NoActionBar" />
+        <activity
             android:name=".ComplexCustomLayout"
             android:exported="true"
             android:label="@string/title_activity_complex_custom_layout"
