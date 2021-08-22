@@ -12,6 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ComposeExample">
         <activity
+            android:name=".IntrinsicsTest"
+            android:exported="true"
+            android:label="@string/title_activity_intrinsics_test"
+            android:theme="@style/Theme.ComposeExample.NoActionBar" />
+        <activity
             android:name=".ConstraintText"
             android:exported="true"
             android:label="@string/title_activity_constraint_text"
